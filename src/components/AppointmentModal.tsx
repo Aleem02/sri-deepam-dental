@@ -70,18 +70,7 @@ Please confirm my slot. Thank you!`;
     setIsSubmitted(true);
   };
 
-  const handleOnlineSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.phone) {
-      alert("Please fill in your Name and Phone Number.");
-      return;
-    }
-    
-    // Simulate API submission
-    setTimeout(() => {
-      setIsSubmitted(true);
-    }, 600);
-  };
+
 
   const resetForm = () => {
     setFormData({
@@ -230,7 +219,7 @@ Please confirm my slot. Thank you!`;
                   </div>
 
                   {/* CTA Buttons */}
-                  <div className="pt-2 flex flex-col gap-2.5">
+                  <div className="pt-2">
                     {/* Primary WhatsApp Booking */}
                     <button
                       type="button"
@@ -239,15 +228,6 @@ Please confirm my slot. Thank you!`;
                     >
                       <MessageSquare className="h-4 w-4 fill-white" />
                       Book via WhatsApp
-                    </button>
-
-                    {/* Secondary Website Form Submission */}
-                    <button
-                      type="button"
-                      onClick={handleOnlineSubmit}
-                      className="w-full py-3.5 px-4 bg-primary hover:bg-primary-hover text-white rounded-xl font-bold uppercase tracking-wider text-[10px] flex items-center justify-center gap-2 border border-accent/20 cursor-pointer transition-all active:scale-97"
-                    >
-                      Request Call Back
                     </button>
                   </div>
                 </form>
