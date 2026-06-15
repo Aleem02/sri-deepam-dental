@@ -57,8 +57,8 @@ export default function Header({ onBookClick }: HeaderProps) {
               <span className="font-semibold text-primary text-base md:text-lg leading-none font-display tracking-tight group-hover:text-secondary transition-colors">
                 Sri Deepam
               </span>
-              <span className="text-[9px] text-accent font-bold tracking-widest uppercase mt-0.5">
-                Multispeciality Dental
+              <span className="text-[9px] text-accent font-bold tracking-widest uppercase mt-0.5 leading-none">
+                Multispeciality Dental Clinic
               </span>
             </div>
           </Link>

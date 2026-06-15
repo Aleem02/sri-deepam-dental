@@ -557,7 +557,7 @@ export default function Home() {
             <div className="lg:col-span-7 space-y-8 pt-4">
               <div className="border-l border-accent/20 pl-6 space-y-1">
                 <span className="text-[10px] font-bold text-accent uppercase tracking-widest block">01 / Diagnosis</span>
-                <h4 className="text-base font-bold text-primary font-display"> 설명 detailed clinical options</h4>
+                <h4 className="text-base font-bold text-primary font-display">Transparent clinical options</h4>
                 <p className="text-slate-500 text-xs sm:text-sm font-sans font-light leading-relaxed">
                   We show digital X-rays to display dental issues. Every cost estimate is written and explained prior to procedure runs.
                 </p>
